@@ -26,7 +26,7 @@ Um aplicativo web para encontrar filmes populares e buscar artistas pelo nome, a
 1. Clone o repositório:
    ```bash
    git clone https://github.com/jaoCorreia/Cinema-TMDB.git
-   cd movie-finder
+   cd Cinema-TMDB
    ```
 2. Entre na pasta do backend:
    ```bash
