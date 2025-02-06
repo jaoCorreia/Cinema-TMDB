@@ -43,7 +43,7 @@ let savedPerson = $state(null);
 
 <div class="result">
     <div>
-        <p>ID: {person.id}</p>
+        <p>ID: {person._id}</p>
         <p>Nome: {person.name}</p>  
         <p>Popularidade: {person.popularity}</p>  
         <p>Departamento: {person.known_for_department}</p>  
@@ -63,11 +63,11 @@ let savedPerson = $state(null);
 <style>
 
 .result {
-    background: #1a1a1a; /* Fundo preto elegante */
-    color: #fff; /* Texto branco */
+    background: #1a1a1a; 
+    color: #fff; 
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(255, 102, 0, 0.3); /* Sombra laranja */
+    box-shadow: 0px 4px 10px rgba(255, 102, 0, 0.3); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,7 +86,7 @@ let savedPerson = $state(null);
     height: 120px;
     object-fit: cover;
     margin-bottom: 15px;
-    border: 3px solid #ff6600; /* Borda laranja */
+    border: 3px solid #ff6600; 
     transition: opacity 0.3s, transform 0.3s;
 }
 
@@ -97,7 +97,7 @@ let savedPerson = $state(null);
 
 .result p {
     font-size: 1em;
-    color: #ccc; /* Texto secundário */
+    color: #ccc; 
     margin: 5px 0;
 }
 
