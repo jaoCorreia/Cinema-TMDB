@@ -45,8 +45,8 @@ Um aplicativo web para encontrar filmes populares e buscar artistas pelo nome, a
 5. Configure as variáveis de ambiente:
    Crie um arquivo **.env** dentro da pasta `backend/` e adicione:
    ```env
-   MONGO_URI=mongodb://localhost:27017/movie_finder
-   TMDB_API_KEY=SUA_CHAVE_TMDB
+   MONGODB=mongodb://localhost:27017/movie_finder
+   API_TOKEN=SUA_CHAVE_TMDB
    ```
 6. Execute o backend:
    ```bash
