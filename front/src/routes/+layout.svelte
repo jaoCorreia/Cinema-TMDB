@@ -10,7 +10,7 @@
 		<a href="/">Home</a>
 		<a href="/movies">Filmes</a>
 		<a href="/favorite/movies">Filmes Favoritos</a>
-		<a href="/persons">Celebridades</a>
+		<a href="/person">Celebridades</a>
 		<a href="/favorite/persons">Celebridades Favoritas</a>
 	</div>
 </nav>
