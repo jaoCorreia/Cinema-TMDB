@@ -43,9 +43,6 @@ function removePerson(removedId) {
 main{
     padding: 10px;
 }
-pre{
-    white-space: pre-wrap;
-}
 .results{
     display: flex;
     gap: 10px;

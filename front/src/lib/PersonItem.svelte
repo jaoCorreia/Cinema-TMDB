@@ -43,7 +43,7 @@ let savedPerson = $state(null);
 
 <div class="result">
     <div>
-        <p>ID: {person._id}</p>
+        <p>ID: {person._id || person.id}</p>
         <p>Nome: {person.name}</p>  
         <p>Popularidade: {person.popularity}</p>  
         <p>Departamento: {person.known_for_department}</p>  

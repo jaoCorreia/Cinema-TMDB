@@ -7,7 +7,7 @@
     let filter = $state(1);
     let error = $state(null)
 
-    const getPersons = (data)=>{
+    const getPerson = (data)=>{
         let [inputContent, filter] = data; 
         let endpoint = 'http://localhost:8000';
         if(filter == 2){
@@ -26,7 +26,7 @@
             error = "Preencha todos os campos"
         }else{
             error = null;
-            let data = await getPersons([inputContent,filter]);
+            let data = await getPerson([inputContent,filter]);
             if(data['results']){
                 results = data['results'].length ? data['results'] : "Nenhum resultado encontrado";
             }else{
